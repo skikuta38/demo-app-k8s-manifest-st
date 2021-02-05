@@ -37,11 +37,11 @@ spec:
     metadata:
       labels:
         app: demo-app
-        version: v1.2.0-build.11
+        version: v1.3.0-build.2
     spec:
       containers:
         - name: demo-app
-          image: skikuta38/demo-app:v1.2.0-build.11
+          image: skikuta38/demo-app:v1.3.0-build.2
           imagePullPolicy: Always
           ports:
             - containerPort: 9999
